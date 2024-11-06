@@ -20,7 +20,7 @@ def generate_random_number(min, max): #changing function name to make it more me
 
 def generate_random_operator():  #changing function name to make it more meaningful
     """
-    Return random operator among three operators.
+    Return random operator among three operators. 
 
     Parameters : 
         None
@@ -48,8 +48,8 @@ def generate_question_answer(n1, n2, o): #changing function name to make it more
         ValueError : If the input type is not Integer.
     """
     p = f"{n1} {o} {n2}"
-    if o == '+': a = n1 + n2   #changing - to + as it is an addition operator
-    elif o == '-': a = n1 - n2  #changing + to - as it is an addition operator
+    if o == '+': a = n1 + n2   #changing - to + as it is an addition operator.
+    elif o == '-': a = n1 - n2  #changing + to - as it is an addition operator.
     else: a = n1 * n2
     return p, a
 
